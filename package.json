@@ -2,6 +2,7 @@
 	"name": "kit-template-default",
 	"version": "0.0.1",
 	"scripts": {
+		"prepack": "svelte-kit sync",
 		"dev": "vite dev",
 		"build": "vite build",
 		"preview": "vite preview",
