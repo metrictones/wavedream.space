@@ -7,7 +7,7 @@
         <div id="button-div" class="w-screen flex justify-center">
             <div id="buttons" class="flex items-center justify-evenly">
                 <a href="/learn">
-                    <button class="btn btn-sm btn-secondary btn-outline rounded-full tracking-widest px-6">
+                    <button class="btn btn-sm btn-secondary btn-outline rounded-full tracking-widest px-4">
                         Learn
                     </button>
                 </a>
