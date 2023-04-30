@@ -2,40 +2,20 @@
     <img class="logo" draggable="false" src="/wavedream.svg" alt="WaveDream.Space" />
     <img class="title" draggable="false" src="/wavedream_title.svg" alt="WaveDream.Space" />
 
-    <!-- <div id="button-div" class="w-screen h-40 mt-[32vh] flex justify-center">
+        <div id="button-div" class="w-screen h-40 mt-[35vh] flex justify-center">
         <div id="buttons" class="w-[60vh] flex items-center justify-evenly">
             <a href="/learn">
-                <button class="max-w-[25vw] border-blue-500 hover:text-blue-300 text-blue-500 scale-125 border tracking-[0.3em] bg-transparent px-4 py-2 text-lg  rounded-full">
+                <button class="btn btn-sm btn-secondary btn-outline rounded-full tracking-widest px-6">
                     Learn
                 </button>
             </a>
             <a href="/create">
-                <button class="border-blue-500 hover:text-blue-300 text-blue-500 scale-125 border tracking-[0.2em] bg-transparent px-4 py-2 text-lg rounded-full">
+                <button class="btn btn-normal btn-primary btn-outline rounded-full tracking-widest">
                     Create
                 </button>
             </a>
             <a href="/explore">
-                <button class="border-blue-500 hover:text-blue-300 text-blue-500 scale-125 border tracking-[0.2em] bg-transparent px-4 py-2 text-lg  rounded-full">
-                    Explore
-                </button>
-            </a>
-        </div>
-    </div> -->
-
-        <div id="button-div" class="w-screen h-40 mt-[50vh] flex justify-center">
-        <div id="buttons" class="w-[60vh] flex items-center justify-evenly">
-            <a href="/learn">
-                <button class="btn btn-secondary btn-outline rounded-full tracking-widest">
-                    Learn
-                </button>
-            </a>
-            <a href="/create">
-                <button class="btn btn-primary btn-outline rounded-full tracking-widest">
-                    Create
-                </button>
-            </a>
-            <a href="/explore">
-                <button class="btn btn-secondary btn-outline rounded-full tracking-widest">
+                <button class="btn btn-sm btn-secondary btn-outline rounded-full tracking-widest">
                     Explore
                 </button>
             </a>
