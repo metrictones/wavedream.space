@@ -29,6 +29,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@fontsource/jura": "^4.5.13",
 		"daisyui": "^2.51.6",
 		"svelvet": "^7.0.34"
 	}

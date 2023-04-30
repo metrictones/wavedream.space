@@ -1,3 +1,4 @@
+<!-- Markup -->
 <div id="orb-container">
 <div></div>
     <img class="max-w-[500px] logo" draggable="false" src="/WaveDream_Logo_Optimized.svg" alt="WaveDream.Space" />
@@ -30,13 +31,6 @@
 
 <!-- //Styling  -->
 <style lang="postcss">
-    @font-face {
-        font-family: 'Jura';
-        font-style: normal;
-        font-weight: 300;
-        src: url("../static/fonts/")
-
-    }
 
 #orb-container {
     width: 100vw;
@@ -62,7 +56,7 @@
 
 
 h1 {
-    font-family: 'Jura';
+font-family: "Jura", sans-serif;
   background: linear-gradient(to left top, rgb(134, 239, 172), rgb(59, 130, 246), rgb(250, 51, 234));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
