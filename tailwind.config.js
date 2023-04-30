@@ -2,6 +2,9 @@
 export default {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 	theme: {
+		letterSpacing: {
+			widest: '.25em'
+		},
 		extend: {}
 	},
 	plugins: [require('daisyui')],
@@ -14,6 +17,6 @@ export default {
 		logs: true,
 		rtl: false,
 		prefix: '',
-		darkTheme: 'dark'
+		darkTheme: 'night'
 	}
 };

@@ -25,17 +25,17 @@
         <div id="button-div" class="w-screen h-40 mt-[50vh] flex justify-center">
         <div id="buttons" class="w-[60vh] flex items-center justify-evenly">
             <a href="/learn">
-                <button class="btn btn- btn-outline rounded-full">
+                <button class="btn btn-secondary btn-outline rounded-full tracking-widest">
                     Learn
                 </button>
             </a>
             <a href="/create">
-                <button class="btn btn-primary btn-wide rounded-full">
+                <button class="btn btn-primary btn-outline rounded-full tracking-widest">
                     Create
                 </button>
             </a>
             <a href="/explore">
-                <button class="btn btn-outline rounded-full">
+                <button class="btn btn-secondary btn-outline rounded-full tracking-widest">
                     Explore
                 </button>
             </a>
