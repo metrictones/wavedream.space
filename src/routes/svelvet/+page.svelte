@@ -1,10 +1,10 @@
 <script>
-  import { Node, Svelvet, Minimap, Controls } from 'svelvet';
+  import { Node, Svelvet, Minimap, Controls, Background } from 'svelvet';
 </script>
 
 <div id="fixed" class="h-screen">
-<Svelvet theme="dark" snapTo={22} id="my-canvas" TD controls>
-  <Node />
-  <Node id="alpha" bgColor="blueviolet" label="Default Node" center />
+<Svelvet theme="dark" snapTo=22 id="my-canvas" controls>
+  <Node connections={["drmseq"]} bgColor="blueviolet" label="WaveDream" outputs=2 />
+  <Node inputs=3 id="drmseq" label="Dream Sequence" bgColor="turquoise" center />
 </Svelvet>
 </div>
