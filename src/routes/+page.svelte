@@ -53,7 +53,7 @@
 
 h1 {
 
-  background: linear-gradient(to left top, rgb(134, 239, 172), rgb(59, 130, 246), rgb(250, 51, 234));
+  background: linear-gradient(to left top, rgb(134, 239, 172), rgb(59, 130, 246), rgb(200, 51, 234));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
