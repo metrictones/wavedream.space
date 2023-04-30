@@ -1,26 +1,29 @@
 <div id="orb-container">
-    <img class="logo" draggable="false" src="/wavedream.svg" alt="WaveDream.Space" />
-    <img class="title" draggable="false" src="/wavedream_title.svg" alt="WaveDream.Space" />
+<div class="w-[20vh]"></div>
+    <img class="max-w-[500px] logo" draggable="false" src="/WaveDream_Logo_Optimized.svg" alt="WaveDream.Space" />
+    <h1 class="text-[80px]">WaveDream</h1>
 
-        <div id="button-div" class="w-screen h-40 mt-[35vh] flex justify-center">
-        <div id="buttons" class="w-[60vh] flex items-center justify-evenly">
-            <a href="/learn">
-                <button class="btn btn-sm btn-secondary btn-outline rounded-full tracking-widest px-6">
-                    Learn
-                </button>
-            </a>
-            <a href="/create">
-                <button class="btn btn-normal btn-primary btn-outline rounded-full tracking-widest">
-                    Create
-                </button>
-            </a>
-            <a href="/explore">
-                <button class="btn btn-sm btn-secondary btn-outline rounded-full tracking-widest">
-                    Explore
-                </button>
-            </a>
+        <div id="button-div" class="w-screen flex justify-center">
+            <div id="buttons" class="flex items-center justify-evenly">
+                <a href="/learn">
+                    <button class="btn btn-sm btn-secondary btn-outline rounded-full tracking-widest px-6">
+                        Learn
+                    </button>
+                </a>
+            <div class="w-[20px]"></div>
+                <a href="/create">
+                    <button class="btn btn-normal btn-primary btn-outline rounded-full tracking-widest">
+                        Create
+                    </button>
+                </a>
+             <div class="w-[20px]"></div>
+                <a href="/explore">
+                    <button class="btn btn-sm btn-secondary btn-outline rounded-full tracking-widest">
+                        Explore
+                    </button>
+                </a>
+            </div>
         </div>
-    </div>
 
 
 </div>
@@ -41,21 +44,10 @@
 }
 
 .logo {
-    margin-top: -25vh;
-    position: absolute;
-    width: 50vh;
-    height: 50vh;
     -moz-user-select: -moz-none;
     -khtml-user-select: none;
     -webkit-user-select: none;
     -o-user-select: none;
     user-select: none;
 }
-
-.title {
-    margin-top: 15vh;
-    width: 60vh;
-    position: absolute;
-}
-
 </style>
