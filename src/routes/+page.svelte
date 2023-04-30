@@ -1,7 +1,7 @@
 <div id="orb-container">
 <div class="w-[20vh]"></div>
     <img class="max-w-[500px] logo" draggable="false" src="/WaveDream_Logo_Optimized.svg" alt="WaveDream.Space" />
-    <h1 class="text-[80px]">WaveDream</h1>
+    <h1 class="tracking-widest mb-[10px] text-[80px]">WaveDream</h1>
 
         <div id="button-div" class="w-screen flex justify-center">
             <div id="buttons" class="flex items-center justify-evenly">
@@ -49,5 +49,13 @@
     -webkit-user-select: none;
     -o-user-select: none;
     user-select: none;
+}
+
+h1 {
+
+  background: linear-gradient(to left top, rgb(134, 239, 172), rgb(59, 130, 246), rgb(250, 51, 234));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
 }
 </style>

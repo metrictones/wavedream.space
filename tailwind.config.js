@@ -3,7 +3,7 @@ export default {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 	theme: {
 		letterSpacing: {
-			widest: '.25em'
+			widest: '.1em'
 		},
 		extend: {}
 	},
