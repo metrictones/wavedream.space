@@ -30,7 +30,13 @@
 
 <!-- //Styling  -->
 <style lang="postcss">
-@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap');
+    @font-face {
+        font-family: 'Jura';
+        font-style: normal;
+        font-weight: 300;
+        src: url("../static/fonts/")
+
+    }
 
 #orb-container {
     width: 100vw;
