@@ -29,6 +29,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"daisyui": "^2.51.6",
 		"svelvet": "^7.0.32"
 	}
 }
