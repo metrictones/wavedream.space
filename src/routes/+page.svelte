@@ -1,7 +1,7 @@
 <div id="orb-container">
-<div class="w-[20vh]"></div>
+<div></div>
     <img class="max-w-[500px] logo" draggable="false" src="/WaveDream_Logo_Optimized.svg" alt="WaveDream.Space" />
-    <h1 class="tracking-widest mb-[10px] text-[80px]">WaveDream</h1>
+    <h1 class="tracking-widest mb-[10px] text-[85px]">WaveDream</h1>
 
         <div id="button-div" class="w-screen flex justify-center">
             <div id="buttons" class="flex items-center justify-evenly">
@@ -30,6 +30,8 @@
 
 <!-- //Styling  -->
 <style lang="postcss">
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap');
+
 #orb-container {
     width: 100vw;
     height: 100vh;
@@ -51,8 +53,10 @@
     user-select: none;
 }
 
-h1 {
 
+
+h1 {
+    font-family: 'Jura';
   background: linear-gradient(to left top, rgb(134, 239, 172), rgb(59, 130, 246), rgb(200, 51, 234));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
